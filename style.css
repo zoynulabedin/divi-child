@@ -10,7 +10,11 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  divi-child
 */
 
-/* Write here your own personal stylesheet */
-.zoynul {
-	color: red;
+/* widget button css */
+.annacortes-btn {
+    background-color: #ce3175;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 17px;
 }
