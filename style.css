@@ -42,7 +42,24 @@ Text Domain:  divi-child
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'marmellata_jam_demoregular';
+    src: url('assets/fonts/marmellatajam_demo-webfont.woff2') format('woff2'),
+         url('assets/fonts/marmellatajam_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('pacifico-webfont.woff2') format('woff2'),
+         url('pacifico-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
-    font-family: 'kg_tangled_up_in_youregular';
+    font-family: 'marmellata_jam_demoregular';
     
 }
