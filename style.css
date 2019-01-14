@@ -18,3 +18,11 @@ Text Domain:  divi-child
     border-radius: 6px;
     font-size: 17px;
 }
+@font-face {
+    font-family: 'brannboll_fetregular';
+    src: url('brannbollfet-webfont.woff2') format('woff2'),
+         url('brannbollfet-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
