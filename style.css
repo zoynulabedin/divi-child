@@ -20,9 +20,20 @@ Text Domain:  divi-child
 }
 @font-face {
     font-family: 'brannboll_fetregular';
-    src: url('brannbollfet-webfont.woff2') format('woff2'),
-         url('brannbollfet-webfont.woff') format('woff');
+    src: url('assets/fonts/brannbollfet-webfont.woff2') format('woff2'),
+         url('assets/fonts/brannbollfet-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+@font-face {
+    font-family: 'freehand_writtenregular';
+    src: url('assets/fonts/freehand_written-webfont.woff2') format('woff2'),
+         url('assets/fonts/freehand_written-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'freehand_writtenregular';
 }
