@@ -59,7 +59,29 @@ Text Domain:  divi-child
     font-style: normal;
 
 }
-body{
+input,button,textarea{
+    font-family: 'pacificoregular';
+}
+.et_pb_contact p textarea, .et_pb_subscribe .et_pb_contact_field textarea{
+    font-family: 'pacificoregular';
+}
+button.et_pb_contact_submit.et_pb_button{
+    font-family: 'pacificoregular';
+}  
+
+a{
     font-family: 'marmellata_jam_demoregular';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'brannboll_fetregular';
+}
+body{
+   
     
+}
+nav#top-menu-nav ul li a{
+    font-family: 'kg_tangled_up_in_youregular';
+}
+p{
+    font-family: 'brannboll_fetregular'; 
 }
