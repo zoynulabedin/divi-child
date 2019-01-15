@@ -59,7 +59,7 @@ Text Domain:  divi-child
     font-style: normal;
 
 }
-input,button,textarea{
+/* input,button,textarea{
     font-family: 'pacificoregular';
 }
 .et_pb_contact p textarea, .et_pb_subscribe .et_pb_contact_field textarea{
@@ -67,21 +67,67 @@ input,button,textarea{
 }
 button.et_pb_contact_submit.et_pb_button{
     font-family: 'pacificoregular';
-}  
+}   */
 
-a{
+/* a{
     font-family: 'marmellata_jam_demoregular';
-}
-h1,h2,h3,h4,h5,h6{
+} */
+/* h1,h2,h3,h4,h5,h6{
     font-family: 'brannboll_fetregular';
-}
+} */
 body{
    
     
 }
-nav#top-menu-nav ul li a{
+/* nav#top-menu-nav ul li a{
     font-family: 'kg_tangled_up_in_youregular';
 }
 p{
     font-family: 'brannboll_fetregular'; 
+} */
+
+/* email subsribtions form */
+#t_subscribtions.et_pb_newsletter .et_pb_newsletter_form .et_pb_contact_field_half{
+    flex-basis: 33%;
+    float: left;
+}
+.et_pb_newsletter .et_pb_newsletter_fields>*{
+    flex-basis: 33%;
+    float: left;
+}
+/* responsive css */
+
+/*Large screen*/
+@media only screen and (min-width:1500px) {}
+
+/* Tablet Layout waid */
+@media only screen and (min-width:992px) and (max-width:1024px) {}
+
+/* tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+@media only screen and (min-width:1200px) {
+
+}
+
+@media only screen and (max-width:991px) {
+   
+	
+}
+
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+    
+
+}
+/* small scren*/
+@media only screen and (max-width:500px) {
+	
+	
+}
+
+
+@media only screen and (max-width:400px) {
+	
 }
