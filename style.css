@@ -11,13 +11,7 @@ Text Domain:  divi-child
 */
 
 /* widget button css */
-.annacortes-btn {
-    background-color: #ce3175;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 6px;
-    font-size: 17px;
-}
+
 @font-face {
     font-family: 'brannboll_fetregular';
     src: url('assets/fonts/brannbollfet-webfont.woff2') format('woff2'),
@@ -53,12 +47,70 @@ Text Domain:  divi-child
 }
 @font-face {
     font-family: 'pacificoregular';
-    src: url('pacifico-webfont.woff2') format('woff2'),
-         url('pacifico-webfont.woff') format('woff');
+    src: url('assets/fonts/pacifico-webfont.woff2') format('woff2'),
+         url('assets/fonts/pacifico-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'aurulent_sansbold';
+    src: url('assets/fonts/aurulentsans-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/aurulentsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aurulent_sansbolditalic';
+    src: url('assets/fonts/aurulentsans-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/aurulentsans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aurulent_sansitalic';
+    src: url('assets/fonts/aurulentsans-italic-webfont.woff2') format('woff2'),
+         url('assets/fonts/aurulentsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aurulent_sansregular';
+    src: url('assets/fonts/aurulentsans-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/aurulentsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* CS fonts end */
+.annacortes-btn {
+    background-color: #ce3175;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.et_builder_inner_content.et_pb_gutters4 .et_pb_bottom_inside_divider {
+    z-index: 9 !important;
+}
+
 /* input,button,textarea{
     font-family: 'pacificoregular';
 }
@@ -72,9 +124,9 @@ button.et_pb_contact_submit.et_pb_button{
 /* a{
     font-family: 'marmellata_jam_demoregular';
 } */
-/* h1,h2,h3,h4,h5,h6{
-    font-family: 'brannboll_fetregular';
-} */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'aurulent_sansbold';
+}
 body{
    
     
